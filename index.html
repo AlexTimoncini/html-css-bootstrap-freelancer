@@ -123,16 +123,25 @@
             </div>
             <div class="row">
                 <div class="col-8 col-md-12 mx-auto">
-                    <input type="text" placeholder="Name" id="name">
-                    <input type="text" placeholder="Email Adress" id="email">
-                    <input type="text" placeholder="Phone NUmber" id="phone_number">
-                    <input type="text" placeholder="Message" id="message">
-                </div>
-                <div class="col-8 col-md-12 mx-auto pt-4">
-                    <button class="my_send_btn px-3 py-2">
-                        <i class="fa-solid fa-download"></i>
-                        Send
-                    </button>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="exampleInputName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPhone" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleInputPhone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn my_send_btn">Send</button>
+                    </form>                
                 </div>
             </div>
         </div>
